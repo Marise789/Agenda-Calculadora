@@ -1,0 +1,39 @@
+body#sobre {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.sobre {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.sobre p {
+    margin-bottom: 10px;
+    color: #666;
+}
+
+.sobre h3 {
+    margin-top: 20px;
+    color: #01B040;
+}
+
+#website_dev {
+    color: #01B040;
+    text-decoration: none;
+}
+
+#website_dev:hover {
+    text-decoration: underline;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}

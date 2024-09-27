@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#tabela-cliente {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+#tabela-cliente th,
+#tabela-cliente td {
+    border: 1px solid #afafb6;
+    padding: 8px;
+    text-align: left;
+}
+
+#tabela-cliente th {
+    background-color: #01B040;
+    color: white;
+}
+
+#c1 {
+    width: 6%;
+}
+
+#c2 {
+    width: 22%;
+}
+
+#c3 {
+    width: 22%;
+}
+
+#c4 {
+    width: 12%;
+}
+
+#c5 {
+    width: 20%;
+}
+
+#c6 {
+    width: 8%;
+}
+
+#c7 {
+    width: 10%;
+}

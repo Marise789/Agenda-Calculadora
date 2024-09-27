@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão</title>
+     <link rel="stylesheet" type="text/css" href="styles.css">
+     
+</head>
+<body>
+    <div id="fundopopup" class="fundopopup ocultar">
+        <div id="janelapopup" class="janelapopup">
+            <div id="titulopopup" class="titulopopup">Editar Contato</div>
+                <div id="principalpopup" class="principalpopup">
+                    <div class="campoForm">
+                    <label>Id:</label>
+                    <input type="text" name="f_id" id="f_id" readonly style="cursor: not-allowed;">
+                    </div>
+
+                    <div class="campoForm">
+                    <label>Nome:</label>
+                    <input type="text" name="f_nome" id="f_nome">
+                    </div>
+                    
+                    <div class="campoForm">
+                    <label>E-Mail:</label>
+                    <input type="text" name="f_email" id="f_email">
+                    </div>
+
+                    <div class="campoForm">
+                    <label>Telefone:</label>
+                    <input type="text" name="f_telefone" id="f_telefone">
+                    </div>
+
+                    <div class="campoForm">
+                    <label>Cidade:</label>
+                    <input type="text" name="f_cidade" id="f_cidade">
+                    </div>
+
+                    <div class="campoForm">
+                    <label>Valor R$:</label>
+                    <input type="text" name="f_valordaconta" id="f_valordaconta">
+                    </div>
+
+                    <div class="campoForm">
+                    <label>Local:</label>
+                    <input type="text" name="f_local" id="f_local">
+                    </div>
+                </div>
+                    <div id="rodapepopup" class="rodapepopup">
+                        <button id="btn_gravar">Gravar</button>
+                        <button id="btn_cancelar">Cancelar</button>
+                    </div>  
+            </div>
+        </div>
+    </div>
+    <h2>Gestão</h2>
+    <div id="dgv" class="dgv">     
+        <div id="resultado" class="resultado">
+            <div id="titulos" class="titulos">
+                <div class="titulo c1">Id:</div>
+                <div class="titulo c2">Nome:</div>
+                <div class="titulo c3">E-mail:</div>
+                <div class="titulo c4">Telefone</div>
+                <div class="titulo c5">Cidade:</div>
+                <div class="titulo c6">Valor R$:</div>
+                <div class="titulo c7">Local:</div>
+                <div class="titulo c8">Edição:</div>
+            </div>
+            <div id="dados" class="dados">
+                <!-- <div class="linhadados">
+                    <div class="coluna c1">Id:</div>
+                    <div class="coluna c2">Nome:</div>
+                    <div class="coluna c3">E-mail:</div>
+                    <div class="coluna c4">Telefone:</div>
+                    <div class="coluna c5">Cidade:</div>
+                    <div class="coluna c6">Valor R$:</div>
+                    <div class="coluna c7">Local:</div>
+                    <div class="coluna c8">Edição</div>
+                </div> -->
+            </div>
+        </div>
+    </div> 
+   <script type="module" src="script.js"></script>
+</body>
+</html>
